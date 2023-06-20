@@ -52,9 +52,7 @@ const About = () => {
             Creative Illustrations
             <br />
             <br /> - Dynamic Websites
-            <br />
             <br /> - Fast and Handy
-            <br />
             <br /> - Mobile Apps
           </p>
           <Button url="/contact" text="Contact" />
