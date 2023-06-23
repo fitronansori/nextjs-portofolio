@@ -1,0 +1,47 @@
+.mainTitle {
+  font-size: 80px;
+}
+
+.selectTitle {
+  margin: 20px 0px;
+}
+
+.items {
+  display: flex;
+  gap: 20px;
+}
+
+.item {
+  position: relative;
+  border: 5px solid #bbb;
+  border-radius: 5px;
+  width: 280px;
+  height: 330px;
+}
+
+.item:hover {
+  color: #53c28b;
+}
+
+.item:nth-child(1) {
+  background-image: url("/illustration.png");
+  background-size: cover;
+}
+
+.item:nth-child(2) {
+  background-image: url("/websites.jpg");
+  background-size: cover;
+}
+
+.item:nth-child(3) {
+  background-image: url("/apps.jpg");
+  background-size: cover;
+}
+
+.title {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-size: 34px;
+  font-weight: bold;
+}
